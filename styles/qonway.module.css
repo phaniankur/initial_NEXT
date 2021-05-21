@@ -1,0 +1,119 @@
+
+
+.main_div{
+    
+    background-color: #C0D8D3;
+    height: 100vh;
+}
+
+.header h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 22px;
+    letter-spacing: 6px;
+}
+
+.login_container{
+    top: 20%;
+    margin-right: 10rem;
+    padding-right: 20px;
+    position: relative;
+    
+}
+.login_container img{
+    width: 20%;
+    float: left;
+    margin-left: 10rem;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #fff;
+    border-color: crimson;
+    
+
+}
+.login_container .login_only{
+    
+    float: right;
+    display: block;
+    
+    
+}
+
+.login_container .icon_header{
+    
+    border-style: solid;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 9rem;
+
+}
+
+.login_only h1{
+    
+    padding: 10px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.login_container button{
+    padding: 10px;
+    outline: none;
+}
+
+.login_container .icon{
+    
+    margin: 5px;
+}
+
+
+
+.btn{
+    border-style: none;
+    background-color: #5393f3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 22rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    transition: all .2s ease-in-out;
+    background-color: crimson;
+    transform-origin: left;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    
+    .login_container img{
+        width: 100%;
+        margin-bottom: 20px;
+        float: none;
+        margin-left: 6rem;
+        
+
+        
+    }
+
+    .login_container .login_only{
+        
+        padding: 10px;
+        position: static;
+        float: none;
+        display: inline-block;
+        text-align: center;
+        margin-left: 40px;   
+          
+    }
+    .icon_header{
+        display: flex;
+        justify-items: center;
+    }
+    
+
+}
